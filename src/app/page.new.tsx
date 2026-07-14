@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import Hero from "./components/hero";
 import ProductsGrid from "./components/ProductGrid";
 
@@ -13,9 +13,16 @@ export default async function Home() {
       <section className="mt-16 space-y-10">
         <div className="rounded-[2rem] border border-slate-200 bg-white/90 p-8 shadow-xl shadow-slate-200/50 backdrop-blur-xl sm:flex sm:items-center sm:justify-between">
           <div className="max-w-2xl">
-            <p className="text-sm uppercase tracking-[0.26em] text-indigo-600">Fresh arrivals</p>
-            <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Products built for performance and style</h2>
-            <p className="mt-4 text-slate-600">Explore our top-rated electronics and accessories crafted to empower your everyday tech experience.</p>
+            <p className="text-sm uppercase tracking-[0.26em] text-indigo-600">
+              Fresh arrivals
+            </p>
+            <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+              Products built for performance and style
+            </h2>
+            <p className="mt-4 text-slate-600">
+              Explore our top-rated electronics and accessories crafted to
+              empower your everyday tech experience.
+            </p>
           </div>
 
           <Link
